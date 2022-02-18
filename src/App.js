@@ -7,7 +7,6 @@ import Layout from "./components/layout/Layout";
 import NotFound from "./components/Pages/NotFound";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 
-const NewQuopte = React.lazy(() => import("./components/Pages/New-quote"));
 function App() {
   return (
     <Layout>
